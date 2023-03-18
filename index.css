@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Bold';
+    src: url(./Fuentes/SFNSDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url(./Fuentes/SFNSDisplay-Regular.otf);
+}
+
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFDC80;
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    margin: 15px;
+    width: 80px;
+}
+
+.logo h2 {
+    font-family: 'Bold';
+    letter-spacing: 1px;
+    color: 	#111111;
+}
+
+.links {
+    padding: 10px;
+}
+
+.links a {
+    margin: 15px;
+    text-decoration: none;
+    font-family: 'Regular';
+    font-weight: 600;
+    letter-spacing: 2px;
+    width: 80px;
+    color: 	#111111;
+    transition: 0.5s;
+}
+
+.links a:hover {
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 30px 10px 30px;
+}
+
+.info {
+    font-family: 'Regular';
+    font-weight: 600;
+    height: auto;
+    letter-spacing: 1px;
+    color: #111111;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.info:hover {
+    background-color: 	#f7f7f7;
+    color: #111111;
+}
+
+section img {
+    mix-blend-mode: color-burn;
+    width: 500px;
+    margin-left: 15px;
+    padding-bottom: 20px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    font-family: 'Regular';  
+}
+
+.botones button {
+    border: none;
+    margin: 15px;
+    padding: 15px;
+    background-color: #C13584;
+    border-radius: 15px;
+    font-family: 'Regular';
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.botones button:hover {
+    box-shadow: 0 5px 15px rgba(193, 53, 13, .4);
+}
